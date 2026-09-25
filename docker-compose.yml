@@ -1,0 +1,17 @@
+services:
+  postgres:
+      image: postgres:18
+      environment:
+        POSTGRES_DB: taskboard
+        POSTGRES_USER: taskuser
+        POSTGRES_PASSWORD: taskpassword
+      ports: 
+        - "5432:5432"
+        
+        
+  redis:
+    image: redis:alpine
+    container_name: taskboard-redis
+    ports:
+      - "6379:6379"
+        
