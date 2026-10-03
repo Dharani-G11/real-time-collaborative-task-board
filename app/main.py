@@ -354,7 +354,7 @@ async def login_user(
     }
     
 
-@app.post("/register")
+@app.post("/register",response_model = UserResponse)
 async def register_user(
     data:UserCreate,
     db:AsyncSession=Depends(get_db)
