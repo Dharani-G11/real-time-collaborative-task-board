@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg
+python-dotenv
+pwdlib
+PyJWT
+redis
+websockets
+pytest
+httpx
