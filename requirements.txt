@@ -3,7 +3,7 @@ uvicorn
 sqlalchemy[asyncio]
 psycopg
 python-dotenv
-pwdlib
+pwdlib[argon2]
 PyJWT
 redis
 websockets
