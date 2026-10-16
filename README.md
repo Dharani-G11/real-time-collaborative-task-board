@@ -10,12 +10,11 @@ The project demonstrates how to build and deploy an asynchronous backend API wit
 
 **Backend:** Deployed on Render
 
-**API Documentation:**  
-`https://YOUR-RENDER-URL.onrender.com/docs`
+**Backend URL:**  
+https://real-time-collaborative-task-board-api-95xz.onrender.com
 
-> Replace `YOUR-RENDER-URL` with your actual Render Web Service URL.
-
----
+**API Documentation (Swagger):**  
+https://real-time-collaborative-task-board-api-95xz.onrender.com/docs
 
 ## 📌 Project Overview
 
